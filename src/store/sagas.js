@@ -10,7 +10,7 @@ import {
 } from './chatSlice';
 
 const SERVER_URL = process.env.REACT_APP_SERVER_URL || 'http://localhost:5000';
-console.log(process.env);
+
 function* initThreadSaga() {
   const res = yield call(axios.get, `${SERVER_URL}/thread`);
   yield put(setThreadId(res.data.id));
