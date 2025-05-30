@@ -17,7 +17,7 @@ function App() {
       <p><b>Author: </b>Oscar Mier <a href="mailto:voscarmv@gmail.com">voscarmv@gmail.com</a> (<a href="https://linkedin.com/in/oscar-mier">Hire me!</a>)</p>
       <p>
         <ul>
-            <li><a href="https://youtu.be/JvGN14-4O5E" target="_blank" rel="noreferrer">Instricciones en Español</a></li>
+            <li><a href="https://youtu.be/yGEU1M-9mWM" target="_blank" rel="noreferrer">Instricciones en Español</a></li>
             <li><a href="https://youtu.be/NbXj-bDqvHs" target="_blank" rel="noreferrer">Instructions in English</a></li>
         </ul>
     </p>
