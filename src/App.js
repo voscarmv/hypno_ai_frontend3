@@ -14,9 +14,15 @@ function App() {
   return (
     <div className="p-4 font-mono">
       <h1 className="text-xl mb-4">Hypno.ai Chat</h1>
-      <b>Author: </b>Oscar Mier voscarmv@gmail.com (<a href="https://linkedin.com/in/oscar-mier">Hire me!</a>)<br></br><br></br>
-      <ChatInterface />
-      <Analytics />
+      <p><b>Author: </b>Oscar Mier <a href="mailto:voscarmv@gmail.com">voscarmv@gmail.com</a> (<a href="https://linkedin.com/in/oscar-mier">Hire me!</a>)</p>
+      <p>Instructions
+        <ul>
+            <li><a href="https://youtube.com" target="_blank" rel="noreferrer">Español</a></li>
+            <li><a href="https://youtube.com" target="_blank" rel="noreferrer">English</a></li>
+        </ul>
+    </p>
+    <ChatInterface />
+    <Analytics />
     </div>
   );
 }
